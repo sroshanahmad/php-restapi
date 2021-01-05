@@ -6,7 +6,7 @@ for post - [https://php-restapi.herokuapp.com/api/post/read.php](https://php-res
 for category - [https://php-restapi.herokuapp.com/api/category/read.php](https://php-restapi.herokuapp.com/api/category/read.php)
 
 ## to get a single post or category
-for post - https://php-restapi.herokuapp.com/api/post/read_single.php?id=<id you want>
+for post - https://php-restapi.herokuapp.com/api/post/read_single.php?id=<id you want>_
 for category - https://php-restapi.herokuapp.com/api/category/read_single.php?id=<id you want>
 
  ## to add a post or category
