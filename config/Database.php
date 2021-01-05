@@ -3,7 +3,7 @@
 class Database{
    
    private $host = 'l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-   private $dbname = 'n1aaxi664lc4vc64	';
+   private $dbname = 'n1aaxi664lc4vc64';
    private $username= 'd0tdf95q8v53y1bk';
    private $password= 'lj2izv6mkcej8sze';
    private $conn;
