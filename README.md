@@ -1,5 +1,5 @@
 # PHP REST API
-Simple PHP REST API from scratch with no framework
+A simple PHP REST API from scratch with no framework.
 
 ## 1. To get posts or categories
 for post - [https://php-restapi.herokuapp.com/api/post/read.php](https://php-restapi.herokuapp.com/api/post/read.php)<br/>
