@@ -138,5 +138,31 @@ class Category{
    return false;
    }
 
+   // get both
+   public function getboth() {
+      $query = 'SELECT 
+               c.name ,
+               p.id as post_id,
+               p.category_id as category_id,
+               p.title as post_title,
+               p.body as post_body,
+               p.author as post_author,
+               p.created_at as post_created_at
+               FROM
+               ' .$this->table.' c
+               LEFT JOIN
+               posts p
+               ON c.id=p.category_id
+               WHERE c.id=?';
+
+      $stmt = $this->conn->prepare($query);
+      $stmt->execute([$this->id]);
+      // $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+      // return $result;
+      return $stmt;
+   }
+
+
 }
 ?>
