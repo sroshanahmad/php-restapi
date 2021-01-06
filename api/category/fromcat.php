@@ -23,7 +23,7 @@ $num = $result->rowCount();
 $post_arr = array();
 $post_arr['data'] = array();
 
-if(num>0){
+if($num>0){
    while($row = $result->fetch(PDO::FETCH_ASSOC)){
    
       extract($row);
