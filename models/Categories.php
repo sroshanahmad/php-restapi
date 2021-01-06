@@ -150,7 +150,7 @@ class Category{
                p.created_at as post_created_at
                FROM
                ' .$this->table.' c
-               LEFT JOIN
+               INNER JOIN
                posts p
                ON c.id=p.category_id
                WHERE c.id=?';
